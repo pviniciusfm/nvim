@@ -19,6 +19,13 @@
   // codelens TODO what does this get me?
   // "codeLens.enable": true,
 
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  },
   // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
@@ -68,7 +75,11 @@
   },
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
+  "coc.source.emoji.filetypes": ["markdown"],
+  "yaml.schemas": {
+    "file:///Users/pmachado/.config/yaml/schemas/eksctl.json": "/cluster.yaml",
+    "kubernetes": "/kubernetes*/*.yaml"
+  }
 
   // TODO b:coc_suggest_disable=1 GOYO
   // TODO add to paths.vim g:coc_node_path

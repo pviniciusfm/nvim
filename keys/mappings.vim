@@ -14,6 +14,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " I hate escape more than anything else
+inoremap <esc> <nop>
 inoremap jk <Esc>
 inoremap kj <Esc>
 
