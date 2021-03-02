@@ -6,13 +6,18 @@
 
 
 " General Settings
-if !exists('g:vscode')
-  source $HOME/.config/nvim/plug-config/polyglot.vim
-endif
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/keys/mappings.vim
+<<<<<<< Updated upstream
+=======
+source $HOME/.config/nvim/plug-config/vim-commentary.vim
+source $HOME/.config/nvim/plug-config/quickscope.vim
+if !exists('g:vscode')
+  source $HOME/.config/nvim/plug-config/polyglot.vim
+endif
+>>>>>>> Stashed changes
 
 if exists('g:vscode')
   " VS Code extension
@@ -27,7 +32,11 @@ else
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
+<<<<<<< Updated upstream
   source $HOME/.config/nvim/plug-config/vim-commentary.vim
+=======
+  " source $HOME/.config/nvim/plug-config/rainbow.vim
+>>>>>>> Stashed changes
   source $HOME/.config/nvim/plug-config/rnvimr.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
   source $HOME/.config/nvim/plug-config/fzf.vim

@@ -1,4 +1,12 @@
 {
+  "languageserver": {
+    "terrform": {
+      "command": "terraform-ls",
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  },
   // suggestions
   // "suggest.echodocSupport": true,
 /* https://code.visualstudio.com/docs/editor/intellisense  reference for vscode symbols*/

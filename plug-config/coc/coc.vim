@@ -1,3 +1,40 @@
+<<<<<<< Updated upstream:plug-config/coc/coc.vim
+=======
+  let g:coc_global_extensions = [
+    \ 'coc-snippets',
+    \ 'coc-actions',
+    \ 'coc-sh',
+    \ 'coc-java-debug',
+    \ 'coc-java',
+    \ 'coc-lists',
+    \ 'coc-emmet',
+    \ 'coc-tasks',
+    \ 'coc-pairs',
+    \ 'coc-tsserver',
+    \ 'coc-eslint',
+    \ 'coc-styled-components',
+    \ 'coc-react-refactor',
+    \ 'coc-floaterm',
+    \ 'coc-html',
+    \ 'coc-css',
+    \ 'coc-emoji',
+    \ 'coc-cssmodules',
+    \ 'coc-yaml',
+    \ 'coc-python',
+    \ 'coc-pyright',
+    \ 'coc-explorer',
+    \ 'coc-svg',
+    \ 'coc-prettier',
+    \ 'coc-vimlsp',
+    \ 'coc-xml',
+    \ 'coc-yank',
+    \ 'coc-json',
+    \ 'coc-marketplace',
+    \ ]
+    " \ 'coc-tabnine',
+    " \ 'coc-highlight',
+
+>>>>>>> Stashed changes:plug-config/coc.vim
 " Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
